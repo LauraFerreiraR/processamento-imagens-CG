@@ -5,13 +5,13 @@ Computação Gráfica
 
 Este repositório contém implementações em Python de diversos filtros de processamento de imagens usando a biblioteca OpenCV.
 
-1. Estrutura
+1. ESTRUTURA
   Cada pasta contém:
     -Código em python
     -Imagem original
     -Imagem resultante com filtro aplicado
 
-2. Filtros Implementados
+2. FILTROS IMPLEMENTADOS
     a - Realce e Ajuste de Intensidade (melhorar contraste e brilho).
         Arquivo: 'realce_ajuste/realce.py'
         Descrição: Ajuste de brilho e contraste usando multiplicação e adição nos valores dos pixels.
