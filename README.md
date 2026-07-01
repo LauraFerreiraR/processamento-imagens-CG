@@ -36,6 +36,7 @@ Este repositório contém implementações em Python de diversos filtros de proc
         Arquivo: 'filtros_morfologicos/morfologicos.py'
         Descrição: Aplicação de erosão e dilatação para refinar contornos em imagens binarizadas.
 
+
 4. REQUISITOS
    -Python
    -OpenCV (cv2)
@@ -44,5 +45,6 @@ Este repositório contém implementações em Python de diversos filtros de proc
      -No terminal: "pip install opencv-python"
 
 5.EXECUÇÃO
+
   Ativar ambiente virtual (caso esteja usando): "source venv/bin/activate"
   Executar individualmente: "python3 caminho/filtro.py" Ex: python3 reducao_ruido/ruido.py
