@@ -1,50 +1,131 @@
-PROCESSAMENTO BÁSICO DE IMAGENS
+# Processamento de Imagens com OpenCV
 
-Universidade Estadual do Norte do Paraná - CLM
-Computação Gráfica
+Projeto desenvolvido para a disciplina de **Computação Gráfica** da Universidade Estadual do Norte do Paraná (UENP).
 
-Este repositório contém implementações em Python de diversos filtros de processamento de imagens usando a biblioteca OpenCV.
+O objetivo do projeto é demonstrar a aplicação de técnicas básicas de **Processamento Digital de Imagens** utilizando Python e OpenCV.
 
-1. ESTRUTURA
-  Cada pasta contém:
-    -Código em python
-    -Imagem original
-    -Imagem resultante com filtro aplicado
+---
 
-2. FILTROS IMPLEMENTADOS
-    a - Realce e Ajuste de Intensidade (melhorar contraste e brilho).
-        Arquivo: 'realce_ajuste/realce.py'
-        Descrição: Ajuste de brilho e contraste usando multiplicação e adição nos valores dos pixels.
-        
-    b - Redução de Ruído e Suavização (remover imperfeições).
-        Arquivo: 'reducao_ruido/ruido.py'
-        Descricao: Aplicação de suavização com filtro Gaussiano para remoção de ruídos.
-   
-    c - Detecção de Bordas (identificar contornos e formas).
-        Arquivo: 'deteccao_bordas/bordas.py'
-        Descrição: Uso do filtro Canny para detectar contornos de objetos na imagem.
-   
-    d - Detecção de Formas e Texturas (identificar padrões na imagem).
-        Arquivo: 'formas_texturas/formas_texturas.py'
-        Descrição: Conversão para escala de cinza e uso de threshold para realçar formas e padrões.
-   
-    e - Transformações Geométricas (redimensionamento e distorção).
-        Arquivo: 'transformacoes_geometricas/transformacoes.py'
-        Descrição: Redimensionamento e rotação da imagem.
-   
-    f - Filtros Morfológicos (processamento de imagens segmentadas).
-        Arquivo: 'filtros_morfologicos/morfologicos.py'
-        Descrição: Aplicação de erosão e dilatação para refinar contornos em imagens binarizadas.
+## Sobre o Projeto
 
+Foram implementados diferentes algoritmos de processamento de imagens, permitindo aplicar filtros e transformações para melhoria, análise e extração de características das imagens.
 
-4. REQUISITOS
-   -Python
-   -OpenCV (cv2)
+Cada técnica possui uma pasta própria contendo:
 
-   Para rodar os códigos, precisa instalar as seguintes dependências:
-     -No terminal: "pip install opencv-python"
+- Código-fonte
+- Imagem original
+- Resultado obtido após o processamento
 
-5.EXECUÇÃO
+---
 
-  Ativar ambiente virtual (caso esteja usando): "source venv/bin/activate"
-  Executar individualmente: "python3 caminho/filtro.py" Ex: python3 reducao_ruido/ruido.py
+## Tecnologias Utilizadas
+
+- Python
+- OpenCV
+- NumPy
+
+---
+
+## Estrutura do Projeto
+
+```text
+processamento-imagens-CG/
+
+├── realce_ajuste/
+├── reducao_ruido/
+├── deteccao_bordas/
+├── formas_texturas/
+├── transformacoes_geometricas/
+├── filtros_morfologicos/
+└── README.md
+```
+
+---
+
+*Funcionalidades
+
+### Realce e Ajuste de Intensidde
+
+- Ajuste de brilho
+- Ajuste de contraste
+
+---
+
+### Redução de Ruído
+
+- Filtro Gaussiano
+- Suavização da imagem
+
+---
+
+### Detecção de Bordas
+
+- Algoritmo de Canny
+
+---
+
+### Detecção de Formas e Texturas
+
+- Conversão para tons de cinza
+- Threshold
+- Identificação de padrões
+
+---
+
+### Transformações Geométricas
+
+- Rotação
+- Redimensionamento
+
+---
+
+### Operações Morfológicas
+
+- Erosão
+- Dilatação
+
+---
+
+## Como executar
+
+Clone o projeto
+
+```bash
+git clone https://github.com/LauraFerreiraR/processamento-imagens-CG.git
+```
+
+Instale as dependências
+
+```bash
+pip install opencv-python numpy
+```
+
+Execute qualquer módulo, por exemplo:
+
+```bash
+python reducao_ruido/ruido.py
+```
+
+---
+
+## Conceitos Aplicados
+
+- Processamento Digital de Imagens
+- Visão Computacional
+- Filtros Espaciais
+- Operações Morfológicas
+- Detecção de Bordas
+- Transformações Geométricas
+
+---
+
+## Melhorias Futuras
+
+- Comparação entre algoritmos
+- Processamento em vídeo
+- Detecção automática de objetos
+- Aplicação de filtros em tempo real
+
+---
+
+Projeto desenvolvido para a disciplina de Computação Gráfica.
